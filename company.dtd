@@ -1,0 +1,10 @@
+<!ELEMENT company (employee)>
+<!ELEMENT employee (first_name,last_name,contact_no, email, address)>
+<!ELEMENT first_name (#PCDATA)>
+<!ELEMENT last_name (#PCDATA)>
+<!ELEMENT contact_no (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT address (city, state, zip)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+<!ELEMENT zip (#PCDATA)>
